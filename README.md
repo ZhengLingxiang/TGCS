@@ -60,7 +60,7 @@ See [DATASET.md](DATASET.md) for details.
 |                       |                      | OBJ_BG        | [scan_objbg](cfgs/recon/tgcs_scan_objbg.yaml) | 94.49  | [ckpt](https://example.com/recon) |
 |                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/recon/tgcs_scan_objonly.yaml) | 92.94  | [ckpt](https://example.com/recon) |
 |                       |                      | PB_T50_RS     | [scan_hardest](cfgs/recon/tgcs_scan_hardest.yaml) | 89.76  | [ckpt](https://example.com/recon) |
-| PointGPT-L (NeurIPS 24) | 2.4M                | ModelNet40    | [modelnet](cfgs/gpt/tgcs_modelnet.yaml) | 95.1   | [ckpt](https://example.com/pointgpt) |
+| PointGPT-L (NeurIPS 24) | 2.2M                | ModelNet40    | [modelnet](cfgs/gpt/tgcs_modelnet.yaml) | 95.1   | [ckpt](https://example.com/pointgpt) |
 |                       |                      | OBJ_BG        | [scan_objbg](cfgs/gpt/tgcs_scan_objbg.yaml) | 98.97  | [ckpt](https://example.com/pointgpt) |
 |                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/gpt/tgcs_scan_objonly.yaml) | 97.42  | [ckpt](https://example.com/pointgpt) |
 |                       |                      | PB_T50_RS     | [scan_hardest](cfgs/gpt/tgcs_scan_hardest.yaml) | 95.00  | [ckpt](https://example.com/pointgpt) |
