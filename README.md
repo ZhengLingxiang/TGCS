@@ -12,16 +12,20 @@ cd TGCS/
 ## Requirements
 ```markdown
 ```bash
-conda create -y -n pgst python=3.9
-conda activate pgst
-pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org
+conda create -y -n idpt python=3.7
+conda activate idpt
+pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 
 # Chamfer Distance & emd
 cd ./extensions/chamfer_dist
 python setup.py install --user
-cd ../emd
+cd ./extensions/emd
 python setup.py install --user
 
 # PointNet++
-pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2"
+pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
+
+# GPU kNN
+pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
+pip install torch-scatter
