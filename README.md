@@ -48,7 +48,7 @@ See [DATASET.md](DATASET.md) for details.
 
 | Baseline              | Trainable Parameters | Dataset       | Config            | Acc.   | Download |
 |-----------------------|----------------------|---------------|-------------------|--------|----------|
-| Point-MAE (ECCV 22)   | 0.6M                 | ModelNet40    | [modelnet](cfgs/modelnet.yaml) | 93.6   | [ckpt](https://example.com/pointmae) |
+| Point-MAE (ECCV 22)   | 0.6M                 | ModelNet40    | [modelnet](cfgs/mae/tgcs_modelnet.yaml) | 93.6   | [ckpt](https://example.com/pointmae) |
 |                       |                      | OBJ_BG        | [scan_objbg](cfgs/scan_objbg.yaml) | 92.60  | [ckpt](https://example.com/pointmae) |
 |                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/scan_objonly.yaml) | 92.08  | [ckpt](https://example.com/pointmae) |
 |                       |                      | PB_T50_RS     | [scan_hardest](cfgs/scan_hardest.yaml) | 88.03  | [ckpt](https://example.com/pointmae) |
