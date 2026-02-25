@@ -9,8 +9,8 @@ git clone https://github.com/ZhengLingxiang/TGCS.git
 
 cd TGCS/
 
-## 2.1 Requirements
 ```markdown
+## 2.1 Requirements
 ```bash
 conda create -y -n idpt python=3.7
 conda activate idpt
