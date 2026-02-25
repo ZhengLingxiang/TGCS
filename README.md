@@ -43,4 +43,22 @@ See [DATASET.md](DATASET.md) for details.
   <img src="Figure/result2.png" width="550">
 </div>
 
+| Baseline              | Trainable Parameters | Dataset       | Config            | Acc.   | Download |
+|-----------------------|----------------------|---------------|-------------------|--------|----------|
+| Point-MAE (ECCV 22)   | 0.6M                 | ModelNet40    | [modelnet](#)     | 93.6   | [ckpt](#) |
+|                       |                      | OBJ_BG        | [scan_objbg](#)   | 92.60  | [ckpt](#) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](#) | 92.08  | [ckpt](#) |
+|                       |                      | PB_T50_RS     | [scan_hardest](#) | 88.03  | [ckpt](#) |
+| ACT (ICLR 23)         | 0.6M                 | ModelNet40    | [modelnet](#)     | 93.7   | [ckpt](#) |
+|                       |                      | OBJ_BG        | [scan_objbg](#)   | 93.80  | [ckpt](#) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](#) | 92.60  | [ckpt](#) |
+|                       |                      | PB_T50_RS     | [scan_hardest](#) | 88.48  | [ckpt](#) |
+| ReCon (ICML 23)       | 0.6M                 | ModelNet40    | [modelnet](#)     | 93.7   | [ckpt](#) |
+|                       |                      | OBJ_BG        | [scan_objbg](#)   | 94.49  | [ckpt](#) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](#) | 92.94  | [ckpt](#) |
+|                       |                      | PB_T50_RS     | [scan_hardest](#) | 89.76  | [ckpt](#) |
+| PointGPT-L (NeurIPS 24) | 2.4M                | ModelNet40    | [modelnet](#)     | 95.1   | [ckpt](#) |
+|                       |                      | OBJ_BG        | [scan_objbg](#)   | 98.97  | [ckpt](#) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](#) | 97.42  | [ckpt](#) |
+|                       |                      | PB_T50_RS     | [scan_hardest](#) | 95.00  | [ckpt](#) |
 
