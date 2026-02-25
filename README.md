@@ -49,21 +49,21 @@ See [DATASET.md](DATASET.md) for details.
 | Baseline              | Trainable Parameters | Dataset       | Config            | Acc.   | Download |
 |-----------------------|----------------------|---------------|-------------------|--------|----------|
 | Point-MAE (ECCV 22)   | 0.6M                 | ModelNet40    | [modelnet](cfgs/mae/tgcs_modelnet.yaml) | 93.6   | [ckpt](https://example.com/pointmae) |
-|                       |                      | OBJ_BG        | [scan_objbg](cfgs/scan_objbg.yaml) | 92.60  | [ckpt](https://example.com/pointmae) |
-|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/scan_objonly.yaml) | 92.08  | [ckpt](https://example.com/pointmae) |
-|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/scan_hardest.yaml) | 88.03  | [ckpt](https://example.com/pointmae) |
-| ACT (ICLR 23)         | 0.6M                 | ModelNet40    | [modelnet](cfgs/modelnet.yaml) | 93.7   | [ckpt](https://example.com/act) |
-|                       |                      | OBJ_BG        | [scan_objbg](cfgs/scan_objbg.yaml) | 93.80  | [ckpt](https://example.com/act) |
-|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/scan_objonly.yaml) | 92.60  | [ckpt](https://example.com/act) |
-|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/scan_hardest.yaml) | 88.48  | [ckpt](https://example.com/act) |
-| ReCon (ICML 23)       | 0.6M                 | ModelNet40    | [modelnet](cfgs/modelnet.yaml) | 93.7   | [ckpt](https://example.com/recon) |
-|                       |                      | OBJ_BG        | [scan_objbg](cfgs/scan_objbg.yaml) | 94.49  | [ckpt](https://example.com/recon) |
-|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/scan_objonly.yaml) | 92.94  | [ckpt](https://example.com/recon) |
-|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/scan_hardest.yaml) | 89.76  | [ckpt](https://example.com/recon) |
-| PointGPT-L (NeurIPS 24) | 2.4M                | ModelNet40    | [modelnet](cfgs/modelnet.yaml) | 95.1   | [ckpt](https://example.com/pointgpt) |
-|                       |                      | OBJ_BG        | [scan_objbg](cfgs/scan_objbg.yaml) | 98.97  | [ckpt](https://example.com/pointgpt) |
-|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/scan_objonly.yaml) | 97.42  | [ckpt](https://example.com/pointgpt) |
-|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/scan_hardest.yaml) | 95.00  | [ckpt](https://example.com/pointgpt) |
+|                       |                      | OBJ_BG        | [scan_objbg](cfgs/mae/tgcs_scan_objbg.yaml) | 92.60  | [ckpt](https://example.com/pointmae) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/mae/tgcs_scan_objonly.yaml) | 92.08  | [ckpt](https://example.com/pointmae) |
+|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/mae/tgcs_scan_hardest.yaml) | 88.03  | [ckpt](https://example.com/pointmae) |
+| ACT (ICLR 23)         | 0.6M                 | ModelNet40    | [modelnet](cfgs/act/tgcs_modelnet.yaml) | 93.7   | [ckpt](https://example.com/act) |
+|                       |                      | OBJ_BG        | [scan_objbg](cfgs/act/tgcs_scan_objbg.yaml) | 93.80  | [ckpt](https://example.com/act) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/act/tgcs_scan_objonly.yaml) | 92.60  | [ckpt](https://example.com/act) |
+|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/act/tgcs_scan_hardest.yaml) | 88.48  | [ckpt](https://example.com/act) |
+| ReCon (ICML 23)       | 0.6M                 | ModelNet40    | [modelnet](cfgs/recon/tgcs_modelnet.yaml) | 93.7   | [ckpt](https://example.com/recon) |
+|                       |                      | OBJ_BG        | [scan_objbg](cfgs/recon/tgcs_scan_objbg.yaml) | 94.49  | [ckpt](https://example.com/recon) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/recon/tgcs_scan_objonly.yaml) | 92.94  | [ckpt](https://example.com/recon) |
+|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/recon/tgcs_scan_hardest.yaml) | 89.76  | [ckpt](https://example.com/recon) |
+| PointGPT-L (NeurIPS 24) | 2.4M                | ModelNet40    | [modelnet](cfgs/gpt/tgcs_modelnet.yaml) | 95.1   | [ckpt](https://example.com/pointgpt) |
+|                       |                      | OBJ_BG        | [scan_objbg](cfgs/gpt/tgcs_scan_objbg.yaml) | 98.97  | [ckpt](https://example.com/pointgpt) |
+|                       |                      | OBJ_ONLY      | [scan_objonly](cfgs/gpt/tgcs_scan_objonly.yaml) | 97.42  | [ckpt](https://example.com/pointgpt) |
+|                       |                      | PB_T50_RS     | [scan_hardest](cfgs/gpt/tgcs_scan_hardest.yaml) | 95.00  | [ckpt](https://example.com/pointgpt) |
 
 </div>
 
