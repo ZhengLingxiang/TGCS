@@ -35,7 +35,11 @@ pip install torch-scatter
 See [DATASET.md](DATASET.md) for details.
 
 # 3. Main Results
-![结果1](Figure/result1.png)
+<div style="text-align: center;">
+  <img src="Figure/result1.png" width="800">
+</div>
 
-![结果2](Figure/result2.png)
+<div style="text-align: center;">
+  <img src="Figure/result2.png" width="550">
+</div>
 
