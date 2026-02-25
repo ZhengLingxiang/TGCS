@@ -6,4 +6,22 @@ Recently, large-scale pre-training has become a dominant paradigm for improv-ing
 
 # 2. Experimental Environment
 git clone https://github.com/ZhengLingxiang/TGCS.git
+
 cd TGCS/
+
+## Requirements
+```markdown
+```bash
+conda create -y -n pgst python=3.9
+conda activate pgst
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org
+pip install -r requirements.txt
+
+# Chamfer Distance & emd
+cd ./extensions/chamfer_dist
+python setup.py install --user
+cd ../emd
+python setup.py install --user
+
+# PointNet++
+pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2"
