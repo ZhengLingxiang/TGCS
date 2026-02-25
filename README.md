@@ -32,4 +32,5 @@ pip install torch-scatter
 ```
 
 ## 2.2 Datasets
+See [DATASET.md](DATASET.md) for details.
 
