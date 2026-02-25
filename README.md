@@ -9,9 +9,9 @@ git clone https://github.com/ZhengLingxiang/TGCS.git
 
 cd TGCS/
 
-```markdown
+
 ## 2.1 Requirements
-```bash
+```
 conda create -y -n idpt python=3.7
 conda activate idpt
 pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
@@ -29,7 +29,7 @@ pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointn
 # GPU kNN
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
 pip install torch-scatter
-
+```
 
 ## 2.2 Datasets
 
