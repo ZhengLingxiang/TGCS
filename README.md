@@ -89,8 +89,21 @@ If you plan to fine-tune on top of pretrained models, please download the weight
 CUDA_VISIBLE_DEVICES=<GPU> python main.py --finetune_model --config <path/to/cfg> --ckpts <path/to/ckpt>
 ```
 
-## 5. Acknowledgement
+# 5. Acknowledgement
 This project is based on Point-BERT ([paper](https://arxiv.org/abs/2111.14819), [code](https://github.com/lulutang0608/Point-BERT)), Point-MAE ([paper](https://arxiv.org/abs/2203.06604), [code](https://github.com/Pang-Yatian/Point-MAE)), ACT([paper](https://arxiv.org/abs/2212.08320), [code](https://github.com/RunpeiDong/ACT)), ReCon ([paper](https://arxiv.org/abs/2302.02318), [code](https://github.com/qizekun/ReCon)), PointGPT([paper](https://arxiv.org/abs/2305.11487), [code](https://github.com/CGuangyan-BIT/PointGPT)), IDPT ([paper](https://arxiv.org/abs/2304.07221), [code](https://github.com/zyh16143998882/ICCV23-IDPT)), DAPT([paper](https://arxiv.org/abs/2403.01439), [code](https://github.com/LMD0311/DAPT)), and PointGST([paper](https://arxiv.org/abs/2410.08114), [code](https://github.com/jerryfeng2003/PointGST)). Thanks for their wonderful works.
+
+
+# 6. Citation
+If you find this repository useful in your research, please consider giving a star ⭐ and a citation.
+```
+@article{zheng2026tgcs,
+  title={Parameter-Efffcient Topology-Guided Cross-Scale Adapter for Point Cloud Learning},
+  author={Lingxiang Zheng and Rongqian Yang},
+  journal={PREPRINT (Version 1) available at Research Square},
+  year={2026}
+}
+```
+
 
 
 
