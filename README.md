@@ -83,7 +83,7 @@ CUDA_VISIBLE_DEVICES=<GPU> python main.py --config <path/to/cfg> --ckpts <path/t
 ```
 
 ## 4.3 Training
-If you plan to fine-tune on top of pretrained models, please download the weights for [Point-MAE](https://github.com/point-mae), [ACT](https://github.com/act), [ReCon](https://github.com/recon), or [PointGPT](https://github.com/jerryfeng2003/PointGPT) accordingly.
+If you plan to fine-tune on top of pretrained models, please download the weights for [Point-MAE](https://github.com/Pang-Yatian/Point-MAE/releases/download/main/pretrain.pth), [ACT](https://drive.google.com/file/d/1T8bzdJfzdfQtCLu3WU9yDZTgBrLXSDcE/view?usp=share_link), [ReCon](https://drive.google.com/file/d/1L-TlZUi7umBCDpZW-1F0Gf4X-9Wvf_Zo/view?usp=share_link), or [PointGPT](https://drive.google.com/file/d/1Kh6f6gFR12Y86FAeBtMU9NbNpB5vZnpu/view?usp=sharing) accordingly.
 
 ```
 CUDA_VISIBLE_DEVICES=<GPU> python main.py --finetune_model --config <path/to/cfg> --ckpts <path/to/ckpt>
