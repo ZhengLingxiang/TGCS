@@ -97,7 +97,7 @@ This project is based on Point-BERT ([paper](https://arxiv.org/abs/2111.14819), 
 If you find this repository useful in your research, please consider giving a star ⭐ and a citation.
 ```
 @article{zheng2026tgcs,
-  title={Parameter-Efffcient Topology-Guided Cross-Scale Adapter for Point Cloud Learning},
+  title={Parameter-Efficient Topology-Guided Cross-Scale Adapter for Point Cloud Learning},
   author={Lingxiang Zheng and Rongqian Yang},
   journal={PREPRINT (Version 1) available at Research Square},
   year={2026}
