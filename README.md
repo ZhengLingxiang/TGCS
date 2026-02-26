@@ -67,3 +67,26 @@ See [DATASET.md](DATASET.md) for details.
 
 </div>
 
+# 4. Run
+## 4.1 Evaluation
+The evaluation commands with checkpoints should be in the following format:
+```
+CUDA_VISIBLE_DEVICES=<GPU> python main.py --test --config <path/to/cfg> --exp_name <path/to/output> --ckpts <namet>
+
+# further enable voting mechanism
+CUDA_VISIBLE_DEVICES=<GPU> python main.py --test --vote --config <path/to/cfg> --exp_name <path/to/output> --ckpts <name>
+```
+
+## 4.2 t-SNE visualization
+```
+CUDA_VISIBLE_DEVICES=<GPU> python main.py --config <path/to/cfg> --ckpts <path/to/ckpt> --tsne --exp_name <name>
+```
+
+## 4.3 Training
+If you plan to fine-tune on top of pretrained models, please download the weights for [Point-MAE](https://github.com/point-mae), [ACT](https://github.com/act), [ReCon](https://github.com/recon), or [PointGPT](https://github.com/jerryfeng2003/PointGPT) accordingly.
+
+```
+CUDA_VISIBLE_DEVICES=<GPU> python main.py --finetune_model --config <path/to/cfg> --ckpts <path/to/ckpt>
+```
+
+
