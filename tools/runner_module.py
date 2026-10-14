@@ -108,7 +108,7 @@ def run_net(args, config, train_writer=None, val_writer=None):
 
     for name, param in base_model.named_parameters():
         if ('cls_pos' in name or 'cls_token' in name or 'cls_norm' in name or 'cls_head' in name or
-                ('gate' in name or 'ms_agg' in name or 'adapter' in name)):
+                ('gate' in name or 'ms_agg' in name or 'mixer_alpha' in name or 'adapter' in name)):
             print_log(name, logger = logger)
             param.requires_grad_(True)
         else:
